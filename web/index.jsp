@@ -4,7 +4,7 @@
     <body>
         <h1>Inicio</h1>
         <h2>Login</h2>
-        <form action="login">
+        <form action="Login">
             Usuario: <input type="text" id="txtUsuario" /><br/>
             Password: <input type="pasword" id="txtPassword" /><br/>
             <input type="submit" id="btnAceptar" value="Aceptar"/>

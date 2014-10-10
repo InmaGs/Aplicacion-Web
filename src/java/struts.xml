@@ -9,8 +9,9 @@
     
     <package name="project.proyectoinma" extends="struts-default">
         <!-- Acción del Login -->
-        <action name="login">
+        <action name="Login" class="actions.Login">
             <result>/WEB-INF/jsp/inicio.jsp</result>
+            <result name="error">/WEB-INF/index.jsp</result>
         </action> 
     </package>
 

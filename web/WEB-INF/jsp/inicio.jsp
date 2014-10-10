@@ -9,6 +9,9 @@
     <%@include file="/WEB-INF/jsp/header.jsp" %>
     <body>
         <h1>Página de Inicio</h1>
+        <p>
+            Login realizado correctamente.
+        </p>
     </body>
     <%@include file="/WEB-INF/jsp/footer.jsp" %>
 </html>
