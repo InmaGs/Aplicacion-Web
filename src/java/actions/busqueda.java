@@ -14,12 +14,12 @@ import com.opensymphony.xwork2.ActionSupport;
  */
 public class busqueda extends ActionSupport {
     
-    String nombre, apellido, dni, provincia, mensaje="";
+    String nombre, apellido, dni, mensaje="";
     
     @Override
     public String execute(){
         mensaje="Resultado de la búsqueda para: "+nombre+" "+apellido+" "
-                +dni+" "+provincia+" ";
+                +dni+" ";
         return SUCCESS;
     }
     
@@ -34,11 +34,7 @@ public class busqueda extends ActionSupport {
     public void setDni(String dni){
         this.dni=dni;
     }
-    
-    public void setProvincia(String provincia){
-        this.provincia=provincia;
-    }
-    
+       
     public String getNombre(){
         return nombre;
     }
@@ -49,10 +45,6 @@ public class busqueda extends ActionSupport {
     
     public String getDni(){
         return dni;
-    }
-    
-    public String getProvincia(){
-        return provincia;
     }
     
     public void setMensaje(String mensaje){

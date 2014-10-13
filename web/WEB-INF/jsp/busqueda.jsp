@@ -13,11 +13,6 @@
             Nombre: <input type="text" name="nombre" id="nombre"/><br/>
             Apellido <input type="text" name="apellido" id="apellido"/><br/>
             DNI: <input type="text" name="dni" id="dni"/><br/>
-            Provincia: <select name="provincia" id="provincia">
-                <option value="Madrid"/>
-                <option value="Barcelona"/>
-                <option value="Valencia"/>
-            </select><br/>
             <input type="submit" value="Buscar" />
         </form>
         </p>
@@ -26,6 +21,6 @@
         </p>
         
     </body>
-    <a href="/WEB-INF/jsp/inicio.jsp">Volver a opciones</a>
+    <a href="WEB-INF/jsp/inicio.jsp">Volver a opciones</a>
     <%@include file="/WEB-INF/jsp/footer.jsp" %>
 </html>

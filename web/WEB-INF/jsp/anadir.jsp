@@ -22,7 +22,7 @@
             <input type="submit" value="Añadir" />
         </form>
         <s:property value="mensaje"/>
-        <a href="/WEB-INF/jsp/inicio.jsp">Volver a opciones</a>
+        <a href="WEB-INF/jsp/inicio.jsp">Volver a opciones</a>
     </body>
     <%@include file="/WEB-INF/jsp/footer.jsp" %>
 </html>

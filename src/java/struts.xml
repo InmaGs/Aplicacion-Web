@@ -23,11 +23,11 @@
         </action>
         
         <action name="busquedaUsuario" class="actions.busqueda">
-            <result>/WEB-INF/jsp/busqueda.jsp</result>
+            <result>/WEB-INF/jsp/resulBusqueda.jsp</result>
         </action>
         
         <action name="anadirUsuario" class="actions.anadir">
-            <result>/WEB-INF/jsp/anadir.jsp</result>
+            <result>/WEB-INF/jsp/resulAnadir.jsp</result>
         </action>
     </package>
 
