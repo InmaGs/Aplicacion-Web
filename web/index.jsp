@@ -5,10 +5,11 @@
         <h1>Inicio</h1>
         <h2>Login</h2>
         <form action="Login">
-            Usuario: <input type="text" id="txtUsuario" /><br/>
-            Password: <input type="pasword" id="txtPassword" /><br/>
-            <input type="submit" id="btnAceptar" value="Aceptar"/>
+            Usuario: <input type="text" id="usuario" name="usuario" /><br/>
+            Password: <input type="password" id="password" name="password" /><br/>
+            <input type="submit" id="btnAceptar" value="Aceptar"/><br/>
+            <s:property value="mensaje"/>
         </form>
     </body>
-    <%@include file="/WEB-INF/jsp/footer.jsp" %>
+    <%@include file="WEB-INF/jsp/footer.jsp" %>
 </html>

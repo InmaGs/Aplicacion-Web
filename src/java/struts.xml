@@ -11,8 +11,24 @@
         <!-- Acción del Login -->
         <action name="Login" class="actions.Login">
             <result>/WEB-INF/jsp/inicio.jsp</result>
-            <result name="error">/WEB-INF/index.jsp</result>
+            <result name="error">index.jsp</result>
+        </action>
+        
+        <action name="buscar">
+            <result>/WEB-INF/jsp/busqueda.jsp</result>
         </action> 
+        
+        <action name="crear">
+            <result>/WEB-INF/jsp/anadir.jsp</result>
+        </action>
+        
+        <action name="busquedaUsuario" class="actions.busqueda">
+            <result>/WEB-INF/jsp/busqueda.jsp</result>
+        </action>
+        
+        <action name="anadirUsuario" class="actions.anadir">
+            <result>/WEB-INF/jsp/anadir.jsp</result>
+        </action>
     </package>
 
 </struts>

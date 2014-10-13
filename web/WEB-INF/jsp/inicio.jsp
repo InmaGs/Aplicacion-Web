@@ -10,8 +10,17 @@
     <body>
         <h1>Página de Inicio</h1>
         <p>
-            Login realizado correctamente.
-        </p>
+            Bienvenido, <s:property value="usuario"/>.<br/>
+            Login realizado correctamente.            
+        </p>        
+        Opciones de control de usuarios:
+        <form method="post">
+            <input type="submit" id="buscar" name="buscar" value="Buscar"
+                  onclick="this.form.action='buscar'" />
+            <input type="submit" id="crear" name="crear" value="Crear"
+                   onclick="this.form.action='crear'"/>
+        </form>
+       
     </body>
     <%@include file="/WEB-INF/jsp/footer.jsp" %>
 </html>
